@@ -1,10 +1,8 @@
-import React, {useEffect, useState, useRef} from 'react';
+import React, {useEffect, useState} from 'react';
 import {
   ScrollView,
   Text,
   View,
-  TouchableOpacity,
-  Dimensions,
   Image,
   SafeAreaView,
   StatusBar,
@@ -12,11 +10,7 @@ import {
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import {Colors} from '../../utils/colors';
-import {Fonts} from '../../utils/fonts';
-import {console_log} from '../../utils/loggers';
 import Styles from './style';
-import Common_styles from '../../utils/commonStyle';
-import {EMAIL_PATTERN, NAVIGATION} from '../../constant';
 import images from '../../utils/images';
 import {
   AccountSymbol,
